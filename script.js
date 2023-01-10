@@ -5,5 +5,6 @@ function mouseCoordinates(e) {
 }
 
 document.addEventListener("mousemove", mouseCoordinates)
+document.addEventListener("touchmove", mouseCoordinates)
 
   
