@@ -1,11 +1,8 @@
-function mouseCoordinates(e) {
-    //e.preventDefault()
-    document.getElementById("mousePosition").innerHTML = "X" + e.clientX + "Y" + e.clientY
+document.querySelector("body").addEventListener("touchstart", f)
+document.querySelector("body").addEventListener("touchmove", f)
+document.querySelector("body").addEventListener("touchend", f)
+
+function f(e) {
+document.getElementById("debugDisplay").innerHTML = e.touches + e.type
+console.log(e.touches, e.type)
 }
-
-document.ontouchstart = mouseCoordinates(e)
-
-//document.addEventListener("mousemove", mouseCoordinates)
-//document.addEventListener("touchend", mouseCoordinates)
-//document.addEventListener("touchstart", mouseCoordinates)
-//document.addEventListener("touchmove", mouseCoordinates)
