@@ -1,7 +1,7 @@
 //document.querySelector("body").addEventListener("mousedown", f)
 document.querySelector("body").addEventListener("mouseover", f)
 //document.querySelector("body").addEventListener("mouseup", f)
-
+document.querySelector("body").addEventListener("touchmove", f)
 //xPosition = clientX
 //yPosition = clientY
 function f(e) {
