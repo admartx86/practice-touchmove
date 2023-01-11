@@ -1,8 +1,8 @@
 //document.querySelector("body").addEventListener("mousedown", f)
 //
-document.body.addEventListener("mousemove", f, {passive:false})
+document.getElementById("touchArea").addEventListener("mousemove", f, {passive:false})
 //document.querySelector("body").addEventListener("mouseup", f)
-document.body.addEventListener("touchmove", f, {passive:false})
+document.getElementById("touchArea").addEventListener("touchmove", f, {passive:false})
 //xPosition = clientX
 //yPosition = clientY
 function f(e) {
