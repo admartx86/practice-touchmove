@@ -1,4 +1,5 @@
 //document.querySelector("body").addEventListener("mousedown", f)
+document.addEventListener("touchmove", preventDefault, wheelOpt);
 document.body.addEventListener("mousemove", f, {passive:false})
 //document.querySelector("body").addEventListener("mouseup", f)
 document.body.addEventListener("touchmove", f, {passive:false})
