@@ -1,4 +1,4 @@
-document.getElementById("touchArea").addEventListener("mousemove", f, {passive:false})
+//document.getElementById("touchArea").addEventListener("mousemove", f, {passive:false})
 document.getElementById("touchArea").addEventListener("touchmove", f, {passive:false})
 function f(e) {
     e.preventDefault()
