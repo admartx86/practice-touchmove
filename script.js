@@ -7,8 +7,8 @@ document.getElementById("touchArea").addEventListener("touchmove", f, {passive:f
 //yPosition = clientY
 function f(e) {
 e.preventDefault()
-document.getElementById("debugDisplay").innerHTML = "X:" + e.clientX + "Y:" + e.clientY
-console.log("X:" + e.clientX + "Y:" + e.clientY)
+document.getElementById("debugDisplay").innerHTML = "X:" + e.pageX + "Y:" + e.pageY
+console.log("X:" + e.pageX + "Y:" + e.pageY)
 //document.getElementById("debugDisplay").innerHTML = e.touches + e.type
 //console.log(e.touches, e.type)
 }
